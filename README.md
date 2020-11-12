@@ -1,6 +1,6 @@
 # custom-video-player
 
-Video player with custom design, made using the HTML5 video element and its video APIs.
+Video player with custom design, made using the HTML5 video element and its JavaScript APIs.
 
 ## Project Specifications
 
