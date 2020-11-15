@@ -50,3 +50,10 @@ play.addEventListener('click', toggleVideoStatus);
 stop.addEventListener('click', stopVideo);
 
 progress.addEventListener('change', setVideoProgress);
+
+document.body.onkeyup = (e) => {
+  // Spacebar press
+  if (e.keyCode == 32) {
+    toggleVideoStatus();
+  }
+};
